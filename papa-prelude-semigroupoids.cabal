@@ -40,6 +40,8 @@ library
 
   exposed-modules:
                     Papa.Prelude.Semigroupoids
+                    Papa.Prelude.Semigroupoids.Data.Functor.Apply
+                    Papa.Prelude.Semigroupoids.Data.List
 
 test-suite doctests
   type:

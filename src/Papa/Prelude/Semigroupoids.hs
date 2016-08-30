@@ -1,2 +1,6 @@
-module Papa.Prelude.Semigroupoids where
+module Papa.Prelude.Semigroupoids(
+  module P
+) where
 
+import Papa.Prelude.Semigroupoids.Data.List as P
+import Papa.Prelude.Semigroupoids.Data.Functor.Apply as P
