@@ -5,7 +5,7 @@ module Papa.Prelude.Semigroupoids.Data.Functor.Bind(
 , (=<<)
 ) where
 
-import Data.Functor.Bind
+import Data.Functor.Bind(Bind((>>-)), (-<<), join)
 
 concat ::
   Bind f =>
