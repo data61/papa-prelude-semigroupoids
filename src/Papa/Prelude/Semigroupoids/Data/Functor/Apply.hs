@@ -1,3 +1,5 @@
+{-# LANGUAGE NoImplicitPrelude #-}
+
 module Papa.Prelude.Semigroupoids.Data.Functor.Apply(
   (*>)
 , (>>)

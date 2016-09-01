@@ -1,3 +1,5 @@
+{-# LANGUAGE NoImplicitPrelude #-}
+
 module Papa.Prelude.Semigroupoids(
   module P
 ) where
