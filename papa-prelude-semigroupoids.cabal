@@ -42,7 +42,6 @@ library
                     Papa.Prelude.Semigroupoids
                     Papa.Prelude.Semigroupoids.Data.Functor.Apply
                     Papa.Prelude.Semigroupoids.Data.Functor.Bind
-                    Papa.Prelude.Semigroupoids.Data.List
                     Papa.Prelude.Semigroupoids.Data.Semigroupoid
 
 test-suite doctests
