@@ -5,6 +5,7 @@ module Papa.Prelude.Semigroupoids.Data.Functor.Bind(
 , concatMap
 , (>>=)
 , (=<<)
+, Bind
 ) where
 
 import Data.Functor.Bind(Bind((>>-)), (-<<), join)

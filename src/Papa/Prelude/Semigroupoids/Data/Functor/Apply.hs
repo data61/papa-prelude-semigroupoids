@@ -4,6 +4,7 @@ module Papa.Prelude.Semigroupoids.Data.Functor.Apply(
   (*>)
 , (>>)
 , (<*)
+, Apply
 ) where
 
 import Data.Functor.Bind(Apply, (.>), (<.))

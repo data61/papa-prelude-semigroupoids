@@ -2,6 +2,7 @@
 
 module Papa.Prelude.Semigroupoids.Data.Semigroupoid(
   (.)
+, Semigroupoid
 ) where
 
 import Data.Semigroupoid(Semigroupoid(o))
