@@ -1,13 +1,24 @@
 {-# LANGUAGE NoImplicitPrelude #-}
+{-# LANGUAGE RebindableSyntax #-}
 
 module Papa.Prelude.Semigroupoids.Data.Functor.Apply(
   (*>)
 , (>>)
 , (<*)
-, Apply
+, Apply(
+    (<.>), (.>), (<.)
+  )
+, liftF2
+, liftF3
+, (<..>)
 ) where
 
-import Data.Functor.Bind(Apply, (.>), (<.))
+import Data.Functor.Apply(
+    Apply((<.>), (.>), (<.))
+  , liftF2
+  , liftF3
+  , (<..>)
+  )
 
 (*>) ::
   Apply f =>

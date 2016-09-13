@@ -1,14 +1,20 @@
 {-# LANGUAGE NoImplicitPrelude #-}
+{-# LANGUAGE RebindableSyntax #-}
 
 module Papa.Prelude.Semigroupoids.Data.Functor.Bind(
   concat
 , concatMap
 , (>>=)
 , (=<<)
-, Bind
+, join
+, Bind((>>-))
 ) where
 
-import Data.Functor.Bind(Bind((>>-)), (-<<), join)
+import Data.Functor.Bind(
+    (-<<)
+  , join
+  , Bind((>>-))
+  )
 
 concat ::
   Bind f =>
