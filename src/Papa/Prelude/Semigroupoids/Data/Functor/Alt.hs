@@ -16,3 +16,6 @@ import Data.Functor.Alt(
   -> f a
 (<|>) =
   (<!>)
+
+infixl 3 <|>
+

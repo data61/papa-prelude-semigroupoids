@@ -28,6 +28,8 @@ import Data.Functor.Apply(
 (*>) =
   (.>)
 
+infixl 4 *>
+
 (>>) ::
   Apply f =>
   f a
@@ -36,6 +38,8 @@ import Data.Functor.Apply(
 (>>) =
   (.>)
 
+infixl 1 >>
+
 (<*) ::
   Apply f =>
   f b
@@ -43,3 +47,6 @@ import Data.Functor.Apply(
   -> f b
 (<*) =
   (<.)
+
+infixl 4 <*
+

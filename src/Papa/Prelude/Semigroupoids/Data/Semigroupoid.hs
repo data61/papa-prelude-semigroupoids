@@ -14,3 +14,6 @@ import Data.Semigroupoid(Semigroupoid(o))
   -> cat a c
 (.) =
   o
+
+infixr 9 .
+
